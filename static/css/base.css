@@ -1,0 +1,9 @@
+
+
+td,th {
+        padding: 4px;
+}
+
+#id_language li {
+    display: inline;
+}
