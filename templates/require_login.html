@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block pagetitle %}
+	AuthDemo :: Require Login
+{% endblock %}
+
+{% block mainheader %}Require Login{% endblock %}
+
+{% block content %}
+
+<p>This page should produce a 405 Forbidden error if accessed when not logged in.</p>
+
+{% endblock %}

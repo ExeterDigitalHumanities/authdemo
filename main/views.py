@@ -10,3 +10,12 @@ class UsersOnly(LoginRequiredMixin, View):
 
     def get(self, request):
         return render(request, 'users_only.html')
+
+
+class RequireLogin(LoginRequiredMixin,View):
+    raise_exception = True
+
+    def get(self, request):
+        return render(request, 'require_login.html')
+
+

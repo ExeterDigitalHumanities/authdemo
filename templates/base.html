@@ -50,7 +50,8 @@
                     <li class="dropdown" id="restrictions">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Restricted Pages</a>
                         <ul class="dropdown-menu">
-                            <li><a href="{%  url 'users_only' %}">Users Only</a> </li>
+                            <li><a href="{% url 'users_only' %}">Users Only</a> </li>
+                            <li><a href="{% url 'require_login'%}">Require User to be Logged In</a></li>
                         </ul>
                     </li>
                 </ul>

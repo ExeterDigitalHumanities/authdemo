@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block pagetitle %}
+	AuthDemo :: Users Only Page
+{% endblock %}
+
+{% block mainheader %}Page for logged in users only{% endblock %}
+
+{% block content %}
+
+<p>This is a page to demonstrate the restrictions that can be placed on access to resources. If not logged in, you
+    should be redirected to the login page, then forwarded to this page again when successfully authenticated.</p>
+
+{% endblock %}
