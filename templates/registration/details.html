@@ -6,10 +6,12 @@
 
 {% block content %}
 
-<p>User details go here...</p>
+    <h3>{{ user.first_name }} {{ user.last_name }}</h3>
 
-    <p>{{ user.email }}</p>
+    <p>Username: {{ user.username }}</p>
 
-    <p>Profiles will need to be linked tables from a separate profile</p>
+    <p>Email address:{{ user.email }}</p>
+
+    <p>Profiles will need to be linked to tables from a separate profile</p>
 
 {% endblock %}
