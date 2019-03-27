@@ -8,5 +8,5 @@ Current plans:
 * examine page restrictions
 * look and feel
 * openauth?
-
+* LDAP authentication [DONE]
 
