@@ -117,9 +117,9 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # Baseline configuration.
-AUTH_LDAP_SERVER_URI = 'ldap://ldap.ex.ac.uk'
+AUTH_LDAP_SERVER_URI = 'ldap://ldap.ex.ac.uk/'
 
-AUTH_LDAP_BIND_DN = 'cn=gbstring,dc=exeter,dc=ac,dc=uk'
+AUTH_LDAP_BIND_DN = 'ou=people,dc=exeter,dc=ac,dc=uk'
 #AUTH_LDAP_BIND_PASSWORD = ''
 #AUTH_LDAP_USER_SEARCH = LDAPSearch(
 #    'ou=people,dc=exeter, dc=ac, dc=uk',
