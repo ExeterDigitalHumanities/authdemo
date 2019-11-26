@@ -77,11 +77,11 @@
     <div id="footer" class="bg-light">
         <div class="container">
             <div class="row text-xs-center text-sm-left text-md-left">
-            <div class="col-xs-12 col-sm-4 col-md-4s">
+            <div class="col-md-8">
                 {% if user.is_authenticated %}
                     <p>Logged in as <a href="{% url 'profile' %}">{{ user.username }}</a>
                     | <a href="{% url 'password_change' %}">change password</a>
-                        | <a href="{% url 'logout' %}">log out</a>
+                    | <a href="{% url 'logout' %}">log out</a>
                     </p>
                 {% else %}
                 <p><a href="{% url 'login' %}">Log in</a></p>
