@@ -67,6 +67,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'authdemo.urls'
 
+CSRF_COOKIE_SECURE = False # Change this if https is available - clear cookies afterwards!
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
