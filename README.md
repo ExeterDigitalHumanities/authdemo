@@ -14,5 +14,5 @@ Demo of Django 2 authentication
 * examine page restrictions
 * look and feel [DONE]
 * openauth?
-
+* LDAP authentication [DONE]
 
