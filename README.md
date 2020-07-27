@@ -7,6 +7,7 @@ Demo of Django 2 authentication
 
 * python-ldap requires a binary (wheel) package to avoid needing a c++ compile
   * https://www.lfd.uci.edu/~gohlke/pythonlibs/
+* place the wheel file (.whl, for your OS and python version) into a 'wheels' folder in directory containing this project, to allow sharing of wheels across projects.
 
 ### Current plans:
 * move main functions to member app (modularise)
@@ -17,4 +18,6 @@ Demo of Django 2 authentication
 * look and feel [DONE]
 * openauth?
 * LDAP authentication [DONE]
+* Convert to Django 3.x.x
+
 

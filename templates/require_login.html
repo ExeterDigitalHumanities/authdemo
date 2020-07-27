@@ -12,6 +12,6 @@
         <div class="card-body">This page should produce a 405 Forbidden error if accessed when not logged in.</div>
     </div>
     <p>This page should produce a 405 Forbidden error if accessed when not logged in.</p>
-    <p>The view used to create this page imports the <span class="" LoginRequiredMixin</p>
+    <p>The view used to create this page imports the <tt>LoginRequiredMixin</tt> which restricts the access to logged in users only, and should redirect to the login form if configured.</p>
 
 {% endblock %}

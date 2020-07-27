@@ -53,6 +53,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="{%  url 'require_login' %}">Require authentication</a>
                     <a class="dropdown-item" href="{%  url 'users_only' %}">Registered users only</a>
+                    <a class="dropdown-item" href="{% url 'require_staff' %}">Require staff user</a>
                 </div>
             </li>
         </ul>

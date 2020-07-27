@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic import TemplateView
-from main.views import UsersOnly, RequireLogin
+from main.views import UsersOnly, RequireLogin, RequireStaff
 
 
 from django.contrib.auth import views as auth_views
@@ -40,6 +40,7 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='about.html'), name='about'),
     path('users_only/', UsersOnly.as_view(), name='users_only'),
     path('require_login/', RequireLogin.as_view(), name='require_login'),
+    path('require_staff/', RequireStaff.as_view(), name='require_staff'),
 
     path('login/', auth_views.LoginView.as_view(),
          name='login'),

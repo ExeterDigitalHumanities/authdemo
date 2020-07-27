@@ -1,8 +1,8 @@
-asgiref==3.2.10
-Django==3.0.8
-django-auth-ldap==2.2.0
-pyasn1==0.4.8
-pyasn1-modules==0.2.8
+asgiref>=3.2.10
+Django>=3.0.8
+django-auth-ldap>=2.2.0
+pyasn1>=0.4.8
+pyasn1-modules>=0.2.8
 python-ldap @ file:///C:/src/python3/wheels/python_ldap-3.3.1-cp39-cp39-win_amd64.whl
-pytz==2020.1
-sqlparse==0.3.1
+pytz>=2020.1
+sqlparse>=0.3.1

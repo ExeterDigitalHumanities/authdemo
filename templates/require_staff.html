@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block pagetitle %}
+	AuthDemo :: Require Staff Login
+{% endblock %}
+
+{% block mainheader %}Require Staff Login{% endblock %}
+
+{% block content %}
+    <div class="card">
+        <div class="card-header">Error Handling</div>
+        <div class="card-body">This page should produce a 405 Forbidden error if accessed when not logged in as a staff user.</div>
+    </div>
+    <p>This page should produce a 405 Forbidden error if accessed when not logged in as staff.</p>
+    <p>The view used to create this page imports the <tt>UserPassesTestMixin</tt> which restricts the access to logged in users only, and should redirect to the login form if configured.</p>
+
+{% endblock %}

@@ -53,10 +53,24 @@
     </div>
 
     <h3>To do:</h3>
-    <ol>
-    <li>Correct error processing on authenticated pages</li>
-        <li><a href="https://stackoverflow.com/questions/47209751/add-bootstrap-to-inbulit-login-view-django">Use custom template tags to add bootstrap classes to forms</a> </li>
-    </ol>
+    <div class="card-columns">
+        <div class="card bg-light">
+            <div class="card-header bg-danger">
+                Error processing
+            </div>
+            <div class="card-body">
+                Correct error processing on authenticated pages, including customised error pages and proper redirection to login form.
+            </div>
+        </div>
+        <div class="card bg-light">
+            <div class="card-header bg-info">
+                Bootstrap generic forms
+            </div>
+            <div class="card-body">
+                Develop bootstrap-aware classes to use in forms for better rendering of the generic forms.
+            </div>
+        </div>
+    </div>
 
 
 {% endblock %}
